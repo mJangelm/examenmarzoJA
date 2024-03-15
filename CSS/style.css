@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "retrotech";
+    src: url(../font/RETROTECH.ttf);
+    font-size: 23px;
+}
+
+
+
+body {
+    background-image: url(../img/fondoretro.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: "retrotech";
+    font-size: 52px;
+    color: white;
+    text-align: center;
+}
+
+.tabla {
+    width: 800px;
+    height: 500px;
+    font-family: Helvetica;
+      font-weight: bold;
+      font-size: 14px;
+      color:rgb(31, 12, 5); 
+      text-align: center;
+      margin:auto;
+      border-collapse: collapse;
+      border-color: rgb(237, 175, 5);
+      border-style:groove;
+      border-width: 5px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      margin:auto;
+      border-collapse: collapse;
+  }
+
+  .celda {
+    width: 40px;
+    height: 40px;
+    border-color: gray;
+    border-style:groove;
+    background-color: rgb(62, 59, 59);
+    border: 1px outset grey;
+    border-radius: 2px;
+    margin:auto;
+    border-collapse: collapse;
+  }
+
+  .celdasin {
+    width: 40px;
+    height: 40px;
+    border-color: gray;
+    margin:auto;
+    border-collapse: collapse;
+  }
+
+  
+  #primeramarcador {
+    background-color: black;
+    border-color: black;
+    border-width: 5px;
+    font : "retrotech";
+    color: white;
+    margin:auto;
+    border-collapse: collapse;
+  }
+
+
+  #primerafila {
+    background: rgb(62, 59, 59);
+    border-collapse: collapse;
+    margin:auto;
+  }
+
+  #segundafila {
+    background: rgb(239, 5, 5);
+    border-collapse: collapse;
+    margin:auto;
+  }
+
+  #tercerafila {
+    background: rgb(239, 216, 5);
+    border-collapse: collapse;
+    margin:auto;
+  }
+
+  #cuartafila {
+    background: blue;
+    border-collapse: collapse;
+    margin:auto;
+  }
+
+  #quintafila {
+    margin:auto;
+    background: violet;
+    border-collapse: collapse;
+    margin:auto;
+  }
+
+  #sextafila {
+    background: green;
+    border-collapse: collapse;
+    margin:auto;
+  }
+
+  #marcador {
+background-color: black;
+border-color: black;
+border-width: 5px;
+font-family : "retrotech";
+color: white;
+border-collapse: collapse;
+margin:auto;
+
+#fontroja {
+    font-family: "retrotech";
+    color: red;
+    font-size: 20px;
+}
+
+  }
+
+  #barra {
+    height: 20px;
+    width: 80px;
+    
+  }
+
+  #circulo {
+    background: lightblue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+
+
+}
